@@ -51,7 +51,7 @@ class Hooks {
 
 		# Opt in automatically for notification if new user in group editor or sysop
 		$groups = $user->getGroups();
-		if ( !$autocreated && ( in_array( 'sysop', $groups ) || in_array( 'editor', $groups ) ) {
+		if ( !$autocreated && ( in_array( 'sysop', $groups ) || in_array( 'editor', $groups ) ) ) {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 			$userOptionsManager->setOption( $user, 'echo-subscriptions-email-newuser', true );
 			$userOptionsManager->saveOptions( $user );

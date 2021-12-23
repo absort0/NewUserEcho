@@ -5,6 +5,8 @@
 		]
 	},
 	"newuserecho-desc": "Adds a new event in echo for the creation of new accounts",
+	"newuserecho-special-listusers": "Manage users.",
 	"echo-pref-tooltip-new-user-created": "Notify me when a new account is created.",
-	"echo-category-title-edit-newuser": "New User Echo"
+	"echo-category-title-edit-newuser": "New User Echo",
+	"notification-header-newuser": "New user <strong>$1</strong> was created"
 }
