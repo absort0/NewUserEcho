@@ -6,7 +6,6 @@
 	"url": "--",
 	"descriptionmsg": "newuserecho-desc",
 	"type": "other",
-	"callback": "NewUserEcho::onRegistration",
 	"requires": {
 		"MediaWiki": ">= 1.35.0",
         "extensions": {

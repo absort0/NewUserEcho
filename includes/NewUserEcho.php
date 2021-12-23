@@ -15,8 +15,4 @@ class NewUserEcho {
 			return User::newFromId( $userId );
 		}, $userIds );
 	}
-
-	public static function locateUsersInList() {
-	}
-
 }
