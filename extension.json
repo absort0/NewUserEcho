@@ -1,0 +1,31 @@
+{
+	"name": "New User Echo",
+	"version": "0.0.1",
+	"author": "Igor Absorto",
+	"license-name": "GPL-3.0-or-later",
+	"url": "--",
+	"descriptionmsg": "newuserecho-desc",
+	"type": "other",
+	"callback": "NewUserEcho::onRegistration",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+        "extensions": {
+            "Echo": "*"
+        }
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-email-newuser": false
+	},
+	"MessagesDirs": {
+		"NewUserEcho": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NewUserEcho": "includes/NewUserEcho.php"
+	},
+	"Hooks": {
+		"LocalUserCreated": "Hooks::onLocalUserCreated"
+	},
+	"manifest_version": 2
+}

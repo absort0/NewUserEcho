@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Igor Absorto"
+		]
+	},
+	"newuserecho-desc": "Adds links for thanking users for edits, comments, etc.",
+	"echo-pref-tooltip-new-user-created": "Notify me when a new account is created.",
+	"echo-category-title-edit-newuser": "New User Echo"
+}
